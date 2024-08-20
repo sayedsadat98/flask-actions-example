@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: my-flask-container
-          image: your-docker-registry/your-username/my-flask-app:latest
+          image: docker.io/sayedsadat98/my-flask-app:latest
           ports:
             - containerPort: 5000
           env:
